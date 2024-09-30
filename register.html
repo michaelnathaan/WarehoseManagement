@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <title>Register</title>
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="logo">WearHouse</div>
+            <button id="menu-toggle" class="menu-toggle">&#9776;</button>
+            <ul class="left">
+                <li>
+                    <a href="category.html">Category</a>
+                </li>
+                <li>
+                    <a href="about_us.html">About Us</a>
+                </li>
+            </ul>
+            <ul class="right">
+                <li>
+                    <a href="login.html">Login</a>
+                </li>
+                <li>
+                    <a href="#" class="active">Register</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="content w-60">
+            <div class="login-container">
+                <div class="login-heading">Register</div>
+                <br>
+                <form id="register-form">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" id="name" name="name" class="form-input">
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" id="email" name="email" class="form-input">
+                    </div>
+                    <div class="form-group">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" id="password" name="password" class="form-input">
+                    </div>
+                    <div class="form-group">
+                        <label for="password-confirmation" class="form-label">Confirm Password</label>
+                        <input type="password" id="password-confirmation" name="password-confirmation" class="form-input">
+                    </div>
+                    <div class="form-checkbox">
+                        <input type="checkbox" id="remember" name="remember">
+                        <label for="remember">By clicking register, I agree to the terms and conditions.</label>
+                    </div>
+                    <div class="forgot-password">
+                        <button type="submit" class="login-button">Register</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer">
+            <img src="assets/img/x_logo.png" alt="Logo 1">
+            <img src="assets/img/facebook_logo.png" alt="Logo 2">
+            <img src="assets/img/instagram_logo.png" alt="Logo 3">
+            <p>Copyright &copy; 2023 [YourNameHere]. All Rights Reserved</p>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>
